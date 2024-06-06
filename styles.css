@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #f7931e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    background-color: #f7931e;
+    color: white;
+    padding: 10px;
+    margin: 0 -20px;
+    margin-bottom: 10px;
+}
+
+.skills, .languages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill, .language {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.skill-bar, .language-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin: 5px 0;
+}
+
+.skill-level, .language-level {
+    background-color: #f7931e;
+    height: 10px;
+    border-radius: 10px;
+}
